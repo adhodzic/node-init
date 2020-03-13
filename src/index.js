@@ -1,1 +1,7 @@
-console.log("Burek sa grožđicama i marcipanom")
+import express from 'express';
+
+const app = express();
+const port = 3000;
+
+
+app.listen(port, () => console.log(`Slušam na portu: ${port}`))
